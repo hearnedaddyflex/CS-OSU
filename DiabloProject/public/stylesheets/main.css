@@ -1,0 +1,5 @@
+/* @import 'shared/variable.css';
+
+body {
+    background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
+} */
