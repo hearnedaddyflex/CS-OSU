@@ -6,10 +6,14 @@ To progrommatically REQUEST data from my microservice you have to connect to the
 
 To RECEIVE data you receive it as a byte and have to decode it as a sting to use it or log it for example. 
 
+
 Here is an example in python using the module urllib.request
 
+
 import urllib.request # import the module
+
 contents = urllib.request.urlopen("http://127.0.0.1:8000").read() # send the GET request and get the data
+
 print(contents.decode()) # decode the data from byte to sting and print
 
 ![image](https://github.com/hearnedaddyflex/CS-OSU/assets/114117172/a7167db2-a6fd-4677-9651-60c90607a3fe)
