@@ -12,4 +12,5 @@ import urllib.request # import the module
 contents = urllib.request.urlopen("http://127.0.0.1:8000").read() # send the GET request and get the data
 print(contents.decode()) # decode the data from byte to sting and print
 
+![image](https://github.com/hearnedaddyflex/CS-OSU/assets/114117172/a7167db2-a6fd-4677-9651-60c90607a3fe)
 
